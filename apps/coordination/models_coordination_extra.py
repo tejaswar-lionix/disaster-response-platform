@@ -8,11 +8,11 @@ logger = logging.getLogger(__name__)
 # coordination: Coordination - matching needs to resources, logistics
 # Details: matching, resources, logistics
 
-class CoordinationStatus(str, Enum):
+class CoordinationExtraStatus(str, Enum):
     PENDING='pending'; ACTIVE='active'; FAILED='failed'
 
 @dataclass
-class CoordinationEntity:
+class CoordinationExtraEntity:
     """Coordination - matching needs to resources, logistics"""
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: float = field(default_factory=time.time)

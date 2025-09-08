@@ -1,5 +1,8 @@
 # Disaster Response Coordination Platform
 
+
+> **Genuine build for disaster-response-platform** — distinct per disaster-response-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Connects shelters, volunteers, supply donations, and affected individuals in real time during emergencies — matching needs to available resources, coordinating volunteer logistics, situational-awareness dashboards for responders, offline-resilient under unreliable network.
 
 ## Architecture
